@@ -8,7 +8,7 @@ const products = [
         mrp: '₹1,299',
         price: '₹999',
         isSale: true,
-        image: 'product_images/crochet_variation_5.png',
+        image: 'product_images/prod_5.jpeg',
         bestseller: true
     },
     {
@@ -18,7 +18,7 @@ const products = [
         mrp: null,
         price: '₹1,499',
         isSale: false,
-        image: 'product_images/crochet_variation_6.png',
+        image: 'product_images/prod_6.jpeg',
         bestseller: false
     },
     {
@@ -28,7 +28,7 @@ const products = [
         mrp: '₹999',
         price: '₹799',
         isSale: true,
-        image: 'product_images/crochet_variation_7.png',
+        image: 'product_images/prod_7.jpeg',
         bestseller: true
     },
     {
@@ -38,7 +38,7 @@ const products = [
         mrp: null,
         price: '₹1,699',
         isSale: false,
-        image: 'product_images/crochet_variation_8.png',
+        image: 'product_images/prod_8.jpeg',
         bestseller: false
     },
     {
@@ -48,7 +48,7 @@ const products = [
         mrp: '₹1,199',
         price: '₹1,099',
         isSale: true,
-        image: 'product_images/crochet_variation_9.png',
+        image: 'product_images/prod_9.jpeg',
         bestseller: false
     },
     {
@@ -58,7 +58,7 @@ const products = [
         mrp: null,
         price: '₹899',
         isSale: false,
-        image: 'product_images/crochet_variation_10.png',
+        image: 'product_images/prod_10.jpeg',
         bestseller: false
     },
 
@@ -70,7 +70,7 @@ const products = [
         mrp: '₹599',
         price: '₹449',
         isSale: true,
-        image: 'product_images/crochet_variation_1.png',
+        image: 'product_images/prod_1.png',
         bestseller: true
     },
     {
@@ -80,7 +80,7 @@ const products = [
         mrp: null,
         price: '₹1,599',
         isSale: false,
-        image: 'product_images/crochet_variation_2.png',
+        image: 'product_images/prod_2.jpeg',
         bestseller: true
     },
     {
@@ -90,7 +90,7 @@ const products = [
         mrp: '₹1,899',
         price: '₹1,499',
         isSale: true,
-        image: 'product_images/crochet_variation_3.png',
+        image: 'product_images/prod_3.jpeg',
         bestseller: true
     },
     {
@@ -100,7 +100,7 @@ const products = [
         mrp: null,
         price: '₹499',
         isSale: false,
-        image: 'product_images/crochet_variation_4.png',
+        image: 'product_images/prod_4.jpeg',
         bestseller: false
     },
     {
@@ -110,7 +110,7 @@ const products = [
         mrp: '₹2,499',
         price: '₹2,199',
         isSale: true,
-        image: 'product_images/crochet_variation_1.png',
+        image: 'product_images/prod_1.png',
         bestseller: false
     },
     {
@@ -120,7 +120,7 @@ const products = [
         mrp: null,
         price: '₹1,299',
         isSale: false,
-        image: 'product_images/crochet_variation_2.png',
+        image: 'product_images/prod_2.jpeg',
         bestseller: false
     }
 ];
