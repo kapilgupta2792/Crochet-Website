@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phool | Handcrafted Crochet</title>
+    <title>toyOtoy.in | Premium Handcrafted Crochet Toys</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -22,8 +21,16 @@
         <div class="header-main">
             <div class="mobile-menu-icon"><i class="fas fa-bars"></i></div>
             <div class="logo-container">
-                <a href="index.html" class="logo-text">Phool</a>
+                <a href="index.html" class="logo-text">toyOtoy.in</a>
             </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="sale.html" class="highlight-link">Sale</a></li>
+                    <li><a href="bestsellers.html">Bestsellers</a></li>
+                    <li><a href="toys.html">Crochet Toys</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                </ul>
+            </nav>
             <div class="utility-icons">
                 <a href="#"><i class="fas fa-search"></i></a>
                 <a href="#"><i class="far fa-user"></i></a>
@@ -34,90 +41,182 @@
                 </a>
             </div>
         </div>
-        <nav class="nav-menu">
-            <ul>
-                <li><a href="sale.html" class="highlight-link">Sale</a></li>
-                <li><a href="bestsellers.html">Bestsellers</a></li>
-                <li><a href="toys.html">Crochet Toys</a></li>
-                <li><a href="flowers.html">Crochet Flowers</a></li>
-                <li><a href="story.html">Our Story</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- Hero Banner -->
     <section class="hero fade-in-up">
         <div class="hero-image" style="background-image: url('assets/hero.png');">
             <div class="hero-overlay">
-                <h2 class="cursive-text">Handcrafted with Love</h2>
-                <h1 class="main-title">The Phool Collection</h1>
-                <a href="bestsellers.html" class="btn-primary">Shop Bestsellers</a>
+                <h1 class="main-title">Handcrafted<br>with Love</h1>
+                <p>Pure organic cotton crochet companions designed for safety, comfort, and lifelong memories.</p>
+                <a href="toys.html" class="btn-primary">Explore Toys</a>
             </div>
         </div>
     </section>
 
-    <!-- Categories / Arch Design -->
-    <section class="categories-section section-padding">
-        <div class="section-header fade-in-up">
-            <h2 class="cursive-text accent-color">Discover</h2>
-            <h3 class="serif-heading">Our Collections</h3>
+    <!-- Shop by Category Section -->
+    <section class="category-section fade-in-up">
+        <div class="section-header">
+            <h3>Shop by Category</h3>
+            <p>Explore our premium collections crafted for endless cuddles</p>
         </div>
-        <div class="arch-grid">
-            <div class="arch-card fade-in-up">
-                <div class="arch-image">
-                    <img src="assets/cat_toys.png" alt="Crochet Toys">
+        <div class="category-slider">
+            <div class="category-card" onclick="location.href='bestsellers.html'">
+                <div class="category-image-wrap">
+                    <img src="product_images/sku_1_front.png" alt="Bestsellers">
                 </div>
-                <a href="toys.html" class="btn-outline">Shop Toys</a>
+                <div class="category-name">Bestsellers</div>
             </div>
-            <div class="arch-card fade-in-up" style="animation-delay: 0.2s;">
-                <div class="arch-image">
-                    <img src="assets/cat_flowers.png" alt="Crochet Flowers">
+            <div class="category-card" onclick="location.href='toys.html'">
+                <div class="category-image-wrap">
+                    <img src="product_images/sku_4_front.png" alt="Crochet Toys">
                 </div>
-                <a href="flowers.html" class="btn-outline">Shop Flowers</a>
+                <div class="category-name">Crochet Toys</div>
+            </div>
+            <div class="category-card" onclick="location.href='sale.html'">
+                <div class="category-image-wrap">
+                    <img src="product_images/sku_5_front.png" alt="Sale Items">
+                </div>
+                <div class="category-name">Sale Items</div>
+            </div>
+            <div class="category-card" onclick="location.href='story.html'">
+                <div class="category-image-wrap">
+                    <img src="product_images/sku_3_front.png" alt="Our Story">
+                </div>
+                <div class="category-name">Our Story</div>
             </div>
         </div>
     </section>
 
-    <!-- Shop Featured -->
+    <!-- Shop Featured (Trending Now) -->
     <section class="shop-section section-padding">
         <div class="section-header fade-in-up">
-            <h2 class="cursive-text accent-color">Trending Now</h2>
-            <h3 class="serif-heading">Featured Pieces</h3>
+            <h3>Trending Now</h3>
+            <p>Handpicked favorites that children and parents love the most</p>
         </div>
         <div class="product-grid" id="product-grid">
             <!-- Injected via JS -->
         </div>
         <div class="center-btn mt-4">
-            <a href="bestsellers.html" class="btn-primary">View All Bestsellers</a>
+            <a href="bestsellers.html" class="btn-outline">View All Bestsellers</a>
         </div>
+    </section>
+
+    <!-- The toyOtoy Experience (Values Section) -->
+    <section class="values-section fade-in-up">
+        <div class="section-header center-btn">
+            <h3>The toyOtoy Experience</h3>
+            <p>What makes our handcrafted crochet toys so special</p>
+        </div>
+        <div class="values-grid mt-4">
+            <div class="value-item">
+                <div class="value-icon"><i class="fas fa-leaf"></i></div>
+                <h4>100% Organic</h4>
+                <p>Knitted with premium GOTS-certified organic cotton yarns and colored with natural dyes.</p>
+            </div>
+            <div class="value-item">
+                <div class="value-icon"><i class="fas fa-hands-holding"></i></div>
+                <h4>Artisan Handcrafted</h4>
+                <p>Hand-stitched with love by 500+ talented Indian women artisans, empowering rural families.</p>
+            </div>
+            <div class="value-item">
+                <div class="value-icon"><i class="fas fa-shield-halved"></i></div>
+                <h4>Child Safe</h4>
+                <p>Hypoallergenic polyfill stuffing, double-stitched seams, and embroidered safety details.</p>
+            </div>
+            <div class="value-item">
+                <div class="value-icon"><i class="fas fa-box-open"></i></div>
+                <h4>Eco Friendly</h4>
+                <p>100% plastic-free compostable packaging delivered with carbon-neutral shipping.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Review Carousel Section -->
+    <section class="reviews-section fade-in-up">
+        <div class="section-header center-btn">
+            <h3>What Our Parents Say</h3>
+            <p>Loved by little hands, trusted by moms and dads</p>
+        </div>
+        <div class="reviews-carousel-container">
+            <div class="reviews-track" id="reviews-track">
+                <div class="review-slide">
+                    <div class="review-stars-big">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"My daughter sleeps with Elliot the Elephant every single night. The yarn is so soft and it's washed beautifully without losing shape. Highly recommend!"</p>
+                    <div class="review-author">Anjali R.</div>
+                    <div class="review-verified"><i class="fas fa-check-circle"></i> Verified Mom</div>
+                </div>
+                <div class="review-slide">
+                    <div class="review-stars-big">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The craftmanship is absolutely stunning. Knowing that my purchase supports local women artisans makes it even more special. Truly premium quality."</p>
+                    <div class="review-author">Vikram S.</div>
+                    <div class="review-verified"><i class="fas fa-check-circle"></i> Verified Dad</div>
+                </div>
+                <div class="review-slide">
+                    <div class="review-stars-big">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"We got Sammy the Dino for a baby shower gift and it was the highlight of the registry! The details are so sweet, and it's extremely safe for infants."</p>
+                    <div class="review-author">Meera K.</div>
+                    <div class="review-verified"><i class="fas fa-check-circle"></i> Verified Buyer</div>
+                </div>
+            </div>
+            <div class="reviews-dots" id="reviews-dots">
+                <span class="reviews-dot active" onclick="setReviewSlide(0)"></span>
+                <span class="reviews-dot" onclick="setReviewSlide(1)"></span>
+                <span class="reviews-dot" onclick="setReviewSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section fade-in-up">
+        <h3>Join the toyOtoy Club</h3>
+        <p>Subscribe to receive updates on new characters, stories from our artisans, and exclusive club pricing.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Welcome to the club! ✨'); this.reset();">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-grid">
             <div class="footer-col brand-col">
-                <h2 class="logo-text-footer">Phool</h2>
-                <p>Bringing warmth and joy through handcrafted crochet artistry.</p>
+                <h2 class="logo-text-footer">toyOtoy.in</h2>
+                <p>Bringing warmth, imagination, and sustainable joy through premium handcrafted crochet toys.</p>
             </div>
             <div class="footer-col">
-                <h4>Quick Links</h4>
+                <h4>Shop Collections</h4>
                 <ul>
-                    <li><a href="toys.html">Toys</a></li>
-                    <li><a href="flowers.html">Flowers</a></li>
-                    <li><a href="story.html">About Us</a></li>
+                    <li><a href="toys.html">Crochet Toys</a></li>
+                    <li><a href="bestsellers.html">Bestsellers</a></li>
+                    <li><a href="sale.html">Sale Items</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="story.html">Our Story</a></li>
+                    <li><a href="#">Artisan Impact</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h4>Policies</h4>
                 <ul>
-                    <li><a href="#">Shipping</a></li>
-                    <li><a href="#">Returns</a></li>
-                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Terms of Service</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Phool Crochet. All rights reserved.</p>
+            <p>&copy; 2026 toyOtoy.in. All rights reserved.</p>
+            <p>Handcrafted in India with Love 🇮🇳</p>
         </div>
     </footer>
 
